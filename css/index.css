@@ -1,4 +1,16 @@
+/* Estilo de página index.html */
+
+/* Seccines Generales */
+
 p {
     margin-bottom: 0;
-    color: red;
+}
+
+/* Sección Perfil */
+
+.img-perfil {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
