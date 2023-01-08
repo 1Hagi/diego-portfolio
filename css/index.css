@@ -1,5 +1,9 @@
 /* Estilo de página index.html */
 
+:root {
+    --width: 25%;
+}
+
 /* Seccines Generales */
 
 p {
@@ -8,9 +12,35 @@ p {
 
 /* Sección Perfil */
 
+.perfil-contenedor {
+    position: absolute;
+    background-color: brown;
+    width: var(--width);
+}
+
+.btn-colapsar-perfil {
+    position: absolute;
+    right: 0;
+    font-size: 50px;
+    padding: 5px 10px 10px 10px;
+}
+
+.btn-colapsar-perfil:hover {
+    background-color: azure;
+    border-radius: 5px;
+}
+
 .img-perfil {
     border-radius: 50%;
     width: 250px;
     height: 250px;
     object-fit: cover;
 }
+
+/* Sección Main */
+
+.main-contenedor {
+    margin-left: var(--width);
+    width: 75%;
+}
+
