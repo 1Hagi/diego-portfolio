@@ -10,12 +10,23 @@ p {
     margin-bottom: 0;
 }
 
+.titulo-principal-container {
+    background-color: rgb(54, 69, 92);
+}
+
+/* Sección Navbar */
+
+.bg-body-tertiary {
+    background-color: #cbc6c3!important;
+}
+
 /* Sección Perfil */
 
 .perfil-contenedor {
     position: absolute;
-    background-color: #002f54;
+    background-color: rgb(54, 69, 92);
     border: solid #508ac1;
+    border-left: 0;
     width: var(--width);
     border-radius: 0 5px 5px 0;
     color: white;
@@ -31,7 +42,7 @@ p {
 
 .btn-colapsar-perfil:hover {
     color: white;
-    background-color: blue;
+    background-color: #041c35;
     border-radius: 5px;
 }
 
@@ -55,6 +66,7 @@ p {
 /* Sección Main */
 
 .main-contenedor {
+    background-color: #f7f8f9;
     margin-left: var(--width);
     width: 75%;
 }
