@@ -14,27 +14,42 @@ p {
 
 .perfil-contenedor {
     position: absolute;
-    background-color: brown;
+    background-color: #002f54;
+    border: solid #508ac1;
     width: var(--width);
+    border-radius: 0 5px 5px 0;
+    color: white;
 }
 
 .btn-colapsar-perfil {
+    color: white;
     position: absolute;
     right: 0;
-    font-size: 50px;
-    padding: 5px 10px 10px 10px;
+    font-size: 30px;
+    padding: 5px 5px 2px 5px;
 }
 
 .btn-colapsar-perfil:hover {
-    background-color: azure;
+    color: white;
+    background-color: blue;
     border-radius: 5px;
 }
 
 .img-perfil {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
+    margin-top: 20px;
+    border: solid 1px black;
+}
+
+.img-nombre {
+    font-size: 20px;
+}
+
+.img-titulo {
+    font-size: 16px;
 }
 
 /* Sección Main */
