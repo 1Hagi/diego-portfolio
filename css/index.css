@@ -71,3 +71,8 @@ p {
     width: 75%;
 }
 
+/* Sección Cartas de Proyecto */
+
+.proyect-card {
+    width: 18rem;
+}
