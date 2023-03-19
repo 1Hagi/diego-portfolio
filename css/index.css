@@ -39,12 +39,17 @@ p {
 .perfil-contenedor {
     position: fixed;
     background-color: rgb(54, 69, 92);
-    border: solid #508ac1;
+    border: solid 3px #508ac1;
+    border-top: 0;
     border-left: 0;
+    border-bottom: 0;
     width: var(--width);
     border-radius: 0 5px 5px 0;
     color: white;
     height: 100%;
+    -webkit-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
+    -moz-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
+    box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);;
 }
 
 .btn-colapsar-perfil {
@@ -84,6 +89,14 @@ p {
     font-size: 16px;
 }
 
+.perfil-descrp {
+    font-family: var(--font-saira);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
 /* Sección Main */
 
 .main-contenedor {
@@ -95,10 +108,14 @@ p {
 /* Sección Tarjetas de Proyecto */
 
 #contenedor-de-tarjetas {
-    padding: 50px;
+    padding: 25px;
 }
 
 .proyect-card {
     width: 25rem;
     padding: 0;
+
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(110,110,110,1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(110,110,110,1);
+    box-shadow: 0px 0px 4px 0px rgba(110,110,110,1);
 }
