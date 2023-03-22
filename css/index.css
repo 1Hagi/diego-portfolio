@@ -97,6 +97,15 @@ p {
     margin-top: 10px;
 }
 
+.perfil-link {
+    font-family: var(--font-saira);
+    color: white;
+}
+
+.perfil-link.perfil-link:hover {
+    color: aquamarine;
+}
+
 /* Sección Main */
 
 .main-contenedor {
