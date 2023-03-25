@@ -121,7 +121,7 @@ p {
 }
 
 .proyect-card {
-    width: 25rem;
+    width: 47%;
     padding: 0;
     margin: 0 25px 25px 0;
 
@@ -146,4 +146,8 @@ p {
 
 .card-tags {
     margin-bottom: 0.5rem;
+}
+
+.card-tag {
+    width: 50px;
 }
