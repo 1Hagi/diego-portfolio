@@ -4,13 +4,13 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <title>Diego Portfolio</title>
+    <link rel="shortcut icon" href="./img/portfolio-icon2.png" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;400&family=Raleway:wght@400;600&display=swap" rel="stylesheet"/>
 
     <!-- Normalize v8.0.1 -->
     <link href="./css/normalize.css" rel="stylesheet"/>
@@ -24,6 +24,9 @@
 
     <!-- Estilo de la página -->
     <link href="./css/index.css" rel="stylesheet"/>
+
+    <!-- JavaScript -->
+    <script src="./js/index.js"></script>
 </head>
 <body>
 
@@ -71,26 +74,37 @@
     <!-- Contenido -->
 
     <main class="container main-contenedor">
+
+        <!-- Sección Título -->
+        <h2 class="proyectos-titulo text-center">Proyectos Completos</h2>
+
         <div class="row" id="contenedor-de-tarjetas">
 
             <!-- Sección de Cartas -->
-
             <div class="card proyect-card mb-3 text-center">
                 <img src="./img/caballos-en-libertad.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Caballos en Libertad</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary btn-ver">Ver Página</a>
-                    <a href="#" class="btn btn-primary btn-code">Ver Código</a>
+                    <a href="http://www.caballosenlibertad.org/" 
+                       target="_blank"
+                       class="btn btn-primary btn-ver">
+                        Ver Página
+                    </a>
+                    <a href="https://github.com/inkua/information-technology-it-workspace/tree/main/projects/human-front-aid" 
+                       target="_blank"
+                       class="btn btn-primary btn-code">
+                        Ver Código
+                    </a>
                 </div>
+
                 <!-- Tags -->
                 <div class="container card-tags">
-                    <img src="./img/logo-html5.png" class="card-tag" alt="HTML5">
-                    <img src="./img/logo-css3.png" class="card-tag" alt="CSS3">
-                    <img src="./img/logo-bootstrap.png" class="card-tag" alt="Bootstrap v5.3">
-                    <img src="./img/logo-javascript.svg" class="card-tag" alt="JavaScript">
-                </div>
-                
+                    <p class="card-tag">HTML5</p>
+                    <p class="card-tag">CSS3</p>
+                    <p class="card-tag">BOOTSTRAP 3.5</p>
+                    <p class="card-tag">JAVASCRIPT</p>
+                </div>  
             </div>
 
             <div class="card proyect-card mb-3 text-center">
@@ -100,6 +114,14 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary btn-ver">Ver Página</a>
                     <a href="#" class="btn btn-primary btn-code">Ver Código</a>
+                </div>
+
+                <!-- Tags -->
+                <div class="container card-tags">
+                    <p class="card-tag">HTML5</p>
+                    <p class="card-tag">CSS3</p>
+                    <p class="card-tag">BOOTSTRAP 3.5</p>
+                    <p class="card-tag">JAVASCRIPT</p>
                 </div>
             </div>
 

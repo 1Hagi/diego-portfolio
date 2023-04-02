@@ -3,6 +3,7 @@
 :root {
     --width: 25%;
     --font-saira: 'Saira Condensed', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
 }
 
 /* Seccines Generales */
@@ -114,6 +115,13 @@ p {
     width: 75%;
 }
 
+.proyectos-titulo {
+    font-family: var(--font-raleway);
+    font-weight: 600;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
 /* Sección Tarjetas de Proyecto */
 
 #contenedor-de-tarjetas {
@@ -145,9 +153,15 @@ p {
 }
 
 .card-tags {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 }
 
 .card-tag {
-    width: 50px;
+    display: inline-block;
+    font-family: var(--font-saira);
+    font-size: 0.8em;
+    background-color: bisque;
+    color: #041c35;
+    border-radius: 2px;
+    padding: 4px;
 }
