@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Diego Portfolio</title>
-    <link rel="shortcut icon" href="./img/portfolio-icon2.png" />
+    <link rel="shortcut icon" href="./img/portfolio-icon.png" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -26,7 +26,7 @@
     <link href="./css/index.css" rel="stylesheet"/>
 
     <!-- JavaScript -->
-    <script src="./js/index.js"></script>
+    <script defer src="./js/index.js"></script>
 </head>
 <body>
 
@@ -52,24 +52,26 @@
 
     <!-- Perfil -->
 
-    <aside class="text-center perfil-contenedor">
-        <div class="container">
-            <i class="fa-solid fa-bars btn-colapsar-perfil"></i>
-            <img class="perfil-img" src="./img/perfil.jpg"/>
-            <p class="perfil-nombre"><b>Diego Nicolas Cabrera</b></p>
-            <p class="perfil-titulo">Programador web</p>
-            <p class="perfil-descrp">Me dedico a solucionar problemas informáticos.
-                Soy un humilde programador que busca su primera experiencia laboral y mejorar como persona.</p>
-            <i class="fa-brands fa-facebook"></i>
-            <a class="perfil-link" href="#">
-                Facebook</a>
-            <i class="fa-brands fa-github"></i>
-            <a class="perfil-link" href="#">
-                Github</a>
-            <i class="fa-brands fa-linkedin"></i>
-            <a class="perfil-link" href="#">
-                LinkedIn</a>
-        </div>
+    <aside id="perfil-contenedor" class="text-center perfil-colapsar">
+
+        <i class="fa-solid fa-bars btn-colapsar-perfil active"></i>
+        <img class="perfil-img" src="./img/perfil.jpg"/>
+        <p class="perfil-nombre"><b>Diego Nicolas Cabrera</b></p>
+        <p class="perfil-titulo">Programador web</p>
+        <p class="perfil-descrp">Me dedico a solucionar problemas informáticos.
+            Soy un humilde programador que busca su primera experiencia laboral y mejorar como persona.
+        </p>
+
+        <i class="fa-brands fa-facebook"></i>
+        <a class="perfil-link" href="#">
+            Facebook</a>
+        <i class="fa-brands fa-github"></i>
+        <a class="perfil-link" href="#">
+            Github</a>
+        <i class="fa-brands fa-linkedin"></i>
+        <a class="perfil-link" href="#">
+            LinkedIn</a>
+
     </aside>
 
     <!-- Contenido -->

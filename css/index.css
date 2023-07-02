@@ -2,8 +2,10 @@
 
 :root {
     --width: 25%;
+    --colapsar-active: 36.25px;
     --font-saira: 'Saira Condensed', sans-serif;
     --font-raleway: 'Raleway', sans-serif;
+    --transition: all 200ms linear;
 }
 
 /* Seccines Generales */
@@ -37,7 +39,7 @@ p {
 
 /* Sección Perfil */
 
-.perfil-contenedor {
+.perfil-colapsar {
     position: fixed;
     background-color: rgb(54, 69, 92);
     border: solid 3px #508ac1;
@@ -51,6 +53,24 @@ p {
     -webkit-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
     -moz-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
     box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);;
+    transition: var(--transition);
+}
+
+.perfil-colapsar-active {
+    position: fixed;
+    background-color: rgb(54, 69, 92);
+    border: solid 3px #508ac1;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    width: 36.25px;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    height: 100%;
+    -webkit-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
+    -moz-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
+    box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);;
+    transition: var(--transition);
 }
 
 .btn-colapsar-perfil {
@@ -74,6 +94,15 @@ p {
     object-fit: cover;
     margin-top: 20px;
     border: solid 1px black;
+    transition: var(--transition);
+}
+
+.perfil-img.colapsar-active {
+    width: 30px;
+    height: 30px;
+    margin-top: 39px;
+    border: none;
+    transition: var(--transition);
 }
 
 .perfil-nombre {
@@ -81,6 +110,12 @@ p {
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 20px;
+    transition: var(--transition);
+}
+
+.perfil-nombre.colapsar-active {
+    display: none;
+    transition: var(--transition);
 }
 
 .perfil-titulo {
@@ -88,6 +123,12 @@ p {
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 16px;
+    transition: var(--transition);
+}
+
+.perfil-titulo.colapsar-active {
+    display: none;
+    transition: var(--transition);
 }
 
 .perfil-descrp {
@@ -96,6 +137,12 @@ p {
     font-size: 16px;
     letter-spacing: 1px;
     margin-top: 10px;
+    transition: var(--transition);
+}
+
+.perfil-descrp.colapsar-active {
+    display: none;
+    transition: var(--transition);
 }
 
 .perfil-link {
@@ -103,8 +150,31 @@ p {
     color: white;
 }
 
+.perfil-link.colapsar-active {
+    display: none;
+    transition: var(--transition);
+}
+
 .perfil-link.perfil-link:hover {
     color: aquamarine;
+}
+
+.fa-facebook.colapsar-active {
+    display: block;
+    margin-top: 20px;
+    transition: var(--transition);
+}
+
+.fa-github.colapsar-active {
+    display: block;
+    margin-top: 10px;
+    transition: var(--transition);
+}
+
+.fa-linkedin.colapsar-active {
+    display: block;
+    margin-top: 10px;
+    transition: var(--transition);
 }
 
 /* Sección Main */
@@ -113,6 +183,14 @@ p {
     background-color: #f7f8f9;
     margin-left: var(--width);
     width: 75%;
+}
+
+.main-contenedor.colapsar-active {
+    background-color: #f7f8f9;
+    margin-left: var(--colapsar-active);
+    width: 100%;
+    margin: auto;
+    transition: var(--transition);
 }
 
 .proyectos-titulo {
