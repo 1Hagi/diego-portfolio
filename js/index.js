@@ -1,13 +1,9 @@
-console.log('hola');
-
 const boton_perfil = document.querySelector('.btn-colapsar-perfil');
 console.log(boton_perfil);
 
 boton_perfil.addEventListener('click', function() {
 
     document.getElementById('perfil-contenedor').classList.toggle('perfil-colapsar-active');
-    document.getElementById('perfil-contenedor').classList.toggle('perfil-colapsar');
-    document.getElementById('perfil-contenedor').classList.toggle('perfil-colapsar');
     document.getElementsByClassName('perfil-img')[0].classList.toggle('colapsar-active');
     document.getElementsByClassName('perfil-descrp')[0].classList.toggle('colapsar-active');
     document.getElementsByClassName('perfil-titulo')[0].classList.toggle('colapsar-active');

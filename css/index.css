@@ -52,25 +52,13 @@ p {
     height: 100%;
     -webkit-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
     -moz-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
-    box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);;
+    box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
     transition: var(--transition);
 }
 
 .perfil-colapsar-active {
-    position: fixed;
-    background-color: rgb(54, 69, 92);
-    border: solid 3px #508ac1;
-    border-top: 0;
-    border-left: 0;
-    border-bottom: 0;
     width: 36.25px;
     border-radius: 0 5px 5px 0;
-    color: white;
-    height: 100%;
-    -webkit-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
-    -moz-box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);
-    box-shadow: 3px 0px 9px 0px rgba(115,115,115,1);;
-    transition: var(--transition);
 }
 
 .btn-colapsar-perfil {
@@ -183,14 +171,14 @@ p {
     background-color: #f7f8f9;
     margin-left: var(--width);
     width: 75%;
+    overflow: hidden;
+    transition: var(--transition);
 }
 
 .main-contenedor.colapsar-active {
-    background-color: #f7f8f9;
     margin-left: var(--colapsar-active);
     width: 100%;
     margin: auto;
-    transition: var(--transition);
 }
 
 .proyectos-titulo {
