@@ -245,8 +245,11 @@ p {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+    /* Sección Perfil */
+
     .perfil-colapsar {
         width: 100%;
+        box-shadow: 1px 0px 9px 0px rgba(115,115,115,1);
     }
 
     .perfil-colapsar-active {
@@ -260,6 +263,22 @@ p {
 
     .main-contenedor.colapsar-active {
         display: block;
+    }
+
+    /* Sección Main */
+
+    .main-contenedor.colapsar-active {
+        background-color: #f7f8f9;
+        margin-left: 0;
+        padding-left: 36.26px;
+        width: 100%;
+    }
+
+    /* Sección Tarjetas de Proyecto */
+
+    .proyect-card {
+        width: 95%;
+        padding: 0;
     }
 
 }
